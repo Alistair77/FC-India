@@ -84,7 +84,7 @@ a{color:inherit}
 /* ================= HERO (fixed size; content never resizes it) ================= */
 .fci-main{border-inline:1px solid var(--line)}
 .fci-hero{position:relative;display:grid;grid-template-columns:1fr;border-bottom:1px solid var(--line)}
-.fci-hero-center{position:relative;order:-1;aspect-ratio:16/10;overflow:hidden;background:#2A2C2E}
+.fci-hero-center{position:relative;order:-1;aspect-ratio:16/11.5;overflow:hidden;background:#2A2C2E}
 .fci-stage{position:absolute;inset:0;overflow:hidden;isolation:isolate;touch-action:pan-y}
 .fci-art{position:absolute;inset:0}
 .fci-layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;opacity:0}
@@ -113,12 +113,12 @@ a{color:inherit}
 
 @media(min-width:700px){
   .fci-badge{display:block}
-  .fci-hero{grid-template-columns:42% 1fr;height:clamp(330px,44vw,420px)}
+  .fci-hero{grid-template-columns:42% 1fr;height:clamp(380px,50.6vw,483px)}
   .fci-hero-center{order:0;aspect-ratio:auto}
   .fci-hero-left{border-right:1px solid var(--line);padding:24px 28px 0 28px}
 }
 @media(min-width:1100px){
-  .fci-hero{grid-template-columns:35.5% 1fr;height:clamp(320px,22.4vw,380px)}
+  .fci-hero{grid-template-columns:35.5% 1fr;height:clamp(368px,25.76vw,437px)}
   .fci-hero-left{padding:24px 36px 0 44px}
   .fci-star-corner{display:block;position:absolute;left:-8px;bottom:-8px;width:16px;height:16px;color:var(--ink);z-index:3}
 }
